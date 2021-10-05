@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPracticeApplication">
         <activity
-            android:name=".TeachActivity"
+            android:name=".LengthResult"
+            android:exported="true" />
+        <activity
+            android:name=".DetailActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
