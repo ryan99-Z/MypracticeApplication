@@ -13,15 +13,15 @@
         android:entries="@array/Units"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.385" />
+        app:layout_constraintVertical_bias="0.383" />
 
     <EditText
         android:id="@+id/Input"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="184dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/input"
         android:inputType="number|numberDecimal"
@@ -49,7 +49,7 @@
         android:id="@+id/button_kg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GET KG"
+        android:text="convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.907"
@@ -64,18 +64,21 @@
         android:entries="@array/Units"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintHorizontal_bias="0.577"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.385" />
+        app:layout_constraintVertical_bias="0.383" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="18dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="12dp"
+        android:layout_width="32dp"
+        android:layout_height="49dp"
         android:text="To"
-        app:layout_constraintStart_toEndOf="@+id/spinner_inputUnit"
-        tools:layout_editor_absoluteY="263dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
